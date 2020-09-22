@@ -1,6 +1,5 @@
 # article-summarizer
-
-A bot that scrapes certain outlets to summarize appropriate articles -- namely recipe and tech anouncement articles.
+A general purpose text summarizing bot will simply give you a broad summary of what the article is about. The goal of this bot is more microscoppic though. What if the article is not a political news article and instead it's something boiler plate like a recipe or a tech announcement article where the reader ultimately only needs a handful of relevant lines from the article? In the case of a recipe, the reader does not actually need a long and hearty preamble about the authors motivation -- the reader just wants to know the steps that go into the recipe.
 
 # Example: 
 
