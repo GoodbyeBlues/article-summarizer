@@ -4,7 +4,7 @@ A bot that scrapes certain outlets to summarize appropriate articles -- namely r
 
 # Example: 
 
-## Summary
+###### Summary
 
 Nvidia GeForce RTX 3080 Specs, Price, and Release Date:
 The RTX 3080 starts at $699 and will be available September 17.
@@ -15,7 +15,7 @@ The RTX 3070 will launch in October, starting at $499, which is less than half t
 Nvidia GeForce RTX 3090 Specs, Price, and Release Date:
 It starts at $1,499 and will be available on September 24.
 
-## Original Article
+###### Original Article
 
 Nvidia just announced its new slate of next-generation graphics cards. The lineup is headed by the flagship GeForce RTX 3080, the successor to the most powerful mainstream graphics card of the last two years, the Nvidia RTX 2080 Ti. As you might expect, this new GPU brings more CUDA, RT, and Tensor cores along with faster memory and perhaps most interestingly a new cooling design, all of which lead to some very promising performance numbers.
 
@@ -29,3 +29,14 @@ Stepping down from the 3080 is the RTX 3070. This new GPU has 8GB GDDR6 memory, 
 
 Nvidia GeForce RTX 3090 Specs, Price, and Release Date
 At the top of the pile is the RTX 3090, the Titan of this generation (without the Titan branding). This absolute monster of a card (seriously, it's huge) has a ridiculous 24GB of GDDR6X memory, and can push out 36 shader-tflops, 69 RT-tflops, and 285 Tensor-tflops of GPU power. Nvidia claims the card is capable of playing games at 60 fps in 8K. It starts at $1,499 and will be available on September 24.
+
+
+# Algorithm
+###### General summarizing
+* 1 ) Word association (e.g. 'City', 'Cities')
+* 2 ) Calculate occurences of each word in the artic
+* 3 ) Assign each word a ranking based on the occurences
+* 4 ) Detect periods that do not represent end of sentences (e.g. 'Mr.' is not a full stop)
+* 5 ) Split article into individual sentences
+* 6 ) Rank sentences based on the sum of the ranking of the words in them
+* 7 ) Return X of the most highly ranked sentences in chronological order
