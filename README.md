@@ -3,8 +3,8 @@ Article summarizer with a focus on recipe articles. Online recipes specifically 
 
 # Example: 
 
-###### Summary
-####### Ingredients
+##### Summary
+###### Ingredients
 * 1/2 cup sugar
 * 1/2 cup packed brown sugar
 * 3 tablespoons all-purpose flour
@@ -17,7 +17,7 @@ Article summarizer with a focus on recipe articles. Online recipes specifically 
 * 1 tablespoon butter
 * 1 large egg white
 * Additional sugar
-####### Directions
+###### Directions
 * In a small bowl, combine the sugars, flour and spices; set aside. 
 * In a large bowl, toss apples with lemon juice. 
 * Add sugar mixture; toss to coat.
@@ -28,7 +28,7 @@ Article summarizer with a focus on recipe articles. Online recipes specifically 
 * Beat egg white until foamy; brush over crust. Sprinkle with sugar. Cover edges loosely with foil.
 * Bake at 375° for 25 minutes. Remove foil and bake until crust is golden brown and filling is bubbly, 20-25 minutes longer. Cool on a wire rack.
 
-###### Original Article
+##### Original Article
 Ingredients
 1/2 cup sugar
 1/2 cup packed brown sugar
