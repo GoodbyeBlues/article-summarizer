@@ -1,34 +1,61 @@
 # article-summarizer
-A general purpose text summarizing bot will simply give you a broad summary of what the article is about. The goal of this bot is more microscoppic though. What if the article is not a political news article and instead it's something boiler plate like a recipe or a tech announcement article where the reader ultimately only needs a handful of relevant lines from the article? In the case of a recipe, the reader does not actually need a long and hearty preamble about the authors motivation -- the reader just wants to know the steps that go into the recipe.
+Article summarizer with a focus on recipe articles. Online recipes specifically are bogged by ads, auto-playing videos, and lengthy preambles. This should grab only the essential information (ingredients and directions), ideally.
 
 # Example: 
 
 ###### Summary
-
-Nvidia GeForce RTX 3080 Specs, Price, and Release Date:
-The RTX 3080 starts at $699 and will be available September 17.
-
-Nvidia GeForce RTX 3070 Specs, Price, and Release Date:
-The RTX 3070 will launch in October, starting at $499, which is less than half the RTX 2080 Ti's current prices.
-
-Nvidia GeForce RTX 3090 Specs, Price, and Release Date:
-It starts at $1,499 and will be available on September 24.
+Ingredients
+1/2 cup sugar
+1/2 cup packed brown sugar
+3 tablespoons all-purpose flour
+1 teaspoon ground cinnamon
+1/4 teaspoon ground ginger
+1/4 teaspoon ground nutmeg
+6 to 7 cups thinly sliced peeled tart apples
+1 tablespoon lemon juice
+Pastry for double-crust pie
+1 tablespoon butter
+1 large egg white
+Additional sugar
+Directions
+In a small bowl, combine the sugars, flour and spices; set aside. In a large bowl, toss apples with lemon juice. Add sugar mixture; toss to coat.
+Line a 9-in. pie plate with bottom crust; trim even with edge. Fill with apple mixture; dot with butter. Roll remaining crust to fit top of pie; place over filling. Trim, seal and flute edges. Cut slits in crust.
+Beat egg white until foamy; brush over crust. Sprinkle with sugar. Cover edges loosely with foil.
+Bake at 375° for 25 minutes. Remove foil and bake until crust is golden brown and filling is bubbly, 20-25 minutes longer. Cool on a wire rack.
 
 ###### Original Article
-
-Nvidia just announced its new slate of next-generation graphics cards. The lineup is headed by the flagship GeForce RTX 3080, the successor to the most powerful mainstream graphics card of the last two years, the Nvidia RTX 2080 Ti. As you might expect, this new GPU brings more CUDA, RT, and Tensor cores along with faster memory and perhaps most interestingly a new cooling design, all of which lead to some very promising performance numbers.
-
-All told, Nvidia announced three new GPUs today: the RTX 3080, RTX 3070, and a new high-end "BFGPU" called the RTX 3090. More on that beast in a second.
-
-Nvidia GeForce RTX 3080 Specs, Price, and Release Date
-The new Nvidia GeForce RTX 3080 has 10GB of GDDR6X, capable of 30 shader-tflops, 58 RT-tflops, and 238 Tensor-tflops. According to Nvidia, it's twice as powerful as the RTX 2080. The RTX 3080 starts at $699 and will be available September 17.
-
-Nvidia GeForce RTX 3070 Specs, Price, and Release Date
-Stepping down from the 3080 is the RTX 3070. This new GPU has 8GB GDDR6 memory, is capable of 20 shader-tflops, 40 RT-tflops, and 163 Tensor-tflops, and according to Nvidia is more powerful than the RTX 2080 Ti – currently the most powerful mainstream graphics card available. The RTX 3070 will launch in October, starting at $499, which is less than half the RTX 2080 Ti's current prices.
-
-Nvidia GeForce RTX 3090 Specs, Price, and Release Date
-At the top of the pile is the RTX 3090, the Titan of this generation (without the Titan branding). This absolute monster of a card (seriously, it's huge) has a ridiculous 24GB of GDDR6X memory, and can push out 36 shader-tflops, 69 RT-tflops, and 285 Tensor-tflops of GPU power. Nvidia claims the card is capable of playing games at 60 fps in 8K. It starts at $1,499 and will be available on September 24.
-
+Ingredients
+1/2 cup sugar
+1/2 cup packed brown sugar
+3 tablespoons all-purpose flour
+1 teaspoon ground cinnamon
+1/4 teaspoon ground ginger
+1/4 teaspoon ground nutmeg
+6 to 7 cups thinly sliced peeled tart apples
+1 tablespoon lemon juice
+Pastry for double-crust pie
+1 tablespoon butter
+1 large egg white
+Additional sugar
+Directions
+In a small bowl, combine the sugars, flour and spices; set aside. In a large bowl, toss apples with lemon juice. Add sugar mixture; toss to coat.
+Line a 9-in. pie plate with bottom crust; trim even with edge. Fill with apple mixture; dot with butter. Roll remaining crust to fit top of pie; place over filling. Trim, seal and flute edges. Cut slits in crust.
+Beat egg white until foamy; brush over crust. Sprinkle with sugar. Cover edges loosely with foil.
+Bake at 375° for 25 minutes. Remove foil and bake until crust is golden brown and filling is bubbly, 20-25 minutes longer. Cool on a wire rack.
+Love Baking? Join Bakeable, Taste of Home's community dedicated to the joy of baking. Subscribe to the Bakeable newsletter and join the Facebook group where you’ll find recipes, tips and monthly challenges.
+Apple Pie Tips
+What are the best apples to use in pies?
+In the Taste of Home Test Kitchen, we prefer using Granny Smith for pies because of its tart flavor and ability to hold its shape. If you want something with a little more sweetness, we recommend using Braeburn, Golden Delicious or Jonagold. Learn more about the best apples for apple pie to determine which is the best one for you!
+How many apples are in 6 cups?
+Typically, 1 medium apple yields 1-1/3 cups sliced. For 6 cups of sliced apples, you will need about 5 medium apples. Plus, you'll have a little left over for a snack or to use in any of these apple recipes!
+How do you keep the bottom of a pie from getting soggy?
+To avoid a pie bottom from getting soggy, allow the bottom crust to heat more rapidly than the rest of the pie. To do this, place a baking sheet in the oven while preheating and then bake your pie on the pan.
+Is it better to bake a pie in glass or metal?
+Both metal and glass pie plates work well for baking double-crust pies. But for single-crust pies that are pre-baked, a metal plate is preferred because it heats quicker and ensures a crisp crust. Follow our other pie baking tips in our ultimate pie baking guide!
+How do I keep my pie filling from being watery?
+To prevent your pie from getting watery, make sure to have your pie crust ready before mixing the filling. The longer the filling sits before baking, the more moisture it will release. Follow these best-kept pie crust secrets so your crust can hold your pie filling nice and strong!
+Nutrition Facts
+1 piece: 414 calories, 16g fat (7g saturated fat), 14mg cholesterol, 227mg sodium, 67g carbohydrate (38g sugars, 2g fiber), 3g protein.
 
 # Algorithm
 ###### General summarizing
