@@ -4,7 +4,7 @@ Article summarizer with a focus on recipe articles. Online recipes specifically 
 # Example: 
 
 ###### Summary
-Ingredients
+####### Ingredients
 * 1/2 cup sugar
 * 1/2 cup packed brown sugar
 * 3 tablespoons all-purpose flour
@@ -17,7 +17,7 @@ Ingredients
 * 1 tablespoon butter
 * 1 large egg white
 * Additional sugar
-Directions
+####### Directions
 * In a small bowl, combine the sugars, flour and spices; set aside. 
 * In a large bowl, toss apples with lemon juice. 
 * Add sugar mixture; toss to coat.
