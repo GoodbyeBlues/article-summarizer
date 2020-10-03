@@ -20,24 +20,28 @@ def create_text_reference(text):
     example_doc -- the user supplied article
     Return: return_description
     """
+    word_freq_dict = {}
     word_dict = {}
+
     # Let the list of unique words be == the user given text
     # (but remove all punctuation, whitespace, and make it all lower case so it's easy to compare)
     unique_words = example_doc.translate(str.maketrans('', '', string.punctuation)).lower().split()
+    unique_words_count = len(unique_words)
+
     for idx, val in enumerate(unique_words):
         if val in word_dict:
             word_dict[val] += 1
         else:
             word_dict.update({unique_words[idx]:1})
 
-    return word_dict
+    print (word_dict, unique_words)
 
 def determine_word_freq(word_dict, unique_words):
     """ Determine word frequency of the user's article
 
     Args: Takes text reference from create_text_reference()
-    Returns:
     """
+
     word_freq_dict = {}
     unique_words_count = len(unique_words)
 
